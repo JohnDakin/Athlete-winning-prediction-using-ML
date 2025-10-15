@@ -90,7 +90,7 @@ error_ratio = error_ratio[np.isfinite(error_ratio)]
 error_ratio
 
 error_ratio.plot.hist()
-#plt.show()
+plt.show()
 
 error_ratio.sort_values()
 
